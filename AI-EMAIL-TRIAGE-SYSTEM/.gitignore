@@ -1,0 +1,48 @@
+# Security - Credentials & Secrets
+.env
+.env.local
+.env*.local
+credentials.json
+token.pickle
+*.key
+*.pem
+*.p12
+
+# Email & Personal Data
+agent_log.json
+results.json
+results_gmail.json
+results_gmail_send.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+*.log
